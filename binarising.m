@@ -1,5 +1,5 @@
 function I=binarising(I,thresh)
-if length(size(I)==3)
+if length(size(I))==3
     I=rgb2gray(I);
 end
 [M,N]=size(I);
